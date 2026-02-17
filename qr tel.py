@@ -16,8 +16,10 @@ VERSION:3.0
 N:{lastname};{name};;;
 FN:{name} {lastname}
 TEL;TYPE=CELL,VOICE:{phone}
+EMAIL;TYPE=INTERNET:{email}
 ORG:{company}
 TITLE:{title}
+URL:{website}
 ADR;TYPE=WORK:;;{address};;;
 NOTE: all internet
 END:VCARD"""
